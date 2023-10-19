@@ -17,21 +17,27 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Zookeeper&apos;s Hive{" "}
+              Dojos{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Scrape Jobs",
+                "Free and Open-Source Tech",
                 1000,
-                "Auto-Apply",
+                "Awaits",
                 1000,
-                "Build",
+                "Take",
                 1000,
-                "Collaborate",
+                "Back",
                 1000,
+                "Your",
                 1000,
-                "Automate",
+                "Data",
+                1000,
+                "For",
+                1000,
+                "Free",
+                
               ]}
               wrapper="span"
               speed={50}
