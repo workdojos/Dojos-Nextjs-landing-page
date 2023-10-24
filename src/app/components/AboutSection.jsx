@@ -94,7 +94,7 @@ const AboutSection = () => {
 
 
           <p className="text-base lg:text-lg">
-            Dial in your digital lives.  Get maximum value from free and open-source apps in your own cloud.  A Dojo, your "place of the way" is just a few clicks away.  Take back your data and ditch your dependency on Big Tech by hosting your own.
+            Dial in your digital lives.  Get maximum value from free and open-source apps in your own cloud.  A Dojo, your place of the way is just a few clicks away.  Take back your data and ditch your dependency on Big Tech by hosting your own.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
