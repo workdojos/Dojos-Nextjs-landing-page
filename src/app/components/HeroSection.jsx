@@ -37,21 +37,21 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Take the first step into everything open-source.  It&apos;s easier than you think.  We&apos;ll show you how.  For free.
+            Take the first step into everything open-source.  We will show you how.  For free.
           </p>
           <div>
             <Link
-              href="XXX"
+              href="https://blog.workdojos.com/#/portal/signup"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Join for Free
             </Link>
             <Link
-              href="mailto:admin@workmates.live"
+              href="#contact"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                E-mail Me
+                60-Day Self-Hosting Challenge
               </span>
             </Link>
           </div>
@@ -62,11 +62,12 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative ">
             <Image
-              src="/images/dojos.png"
-              alt="hero image of me backpacking in Patagonia"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              style={{borderRadius: 20}}
+              src="/images/typeX.gif"
+              alt="A beautiful Swedish woman typing"
+              className=".img-container"
               width={500}
               height={500}
             />
