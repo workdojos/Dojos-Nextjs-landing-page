@@ -62,7 +62,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[512px] h-[512px] lg:w-[400px] lg:h-[400px] relative ">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250] lg:w-[400px] lg:h-[400px] relative ">
             <Image
               style={{borderRadius: 20}}
               src="/images/typeX.gif"

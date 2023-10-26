@@ -61,15 +61,6 @@ const dojosData = [
   },
   {
     id: 7,
-    title: "Curators",
-    description: "Curators can utilize open-source technology to create interactive virtual exhibitions, enabling global access to art and cultural artifacts while fostering community engagement and collaboration.",
-    image: "/images/projects/correspondents.jpg",
-    tag: ["All", "The Arts"],
-    gitUrl: "https://og.admins.live/#Curators",
-    previewUrl: "/images/projects/curators.jpg",
-  },
-  {
-    id: 8,
     title: "Exhibitionists",
     description: "Open-source augmented reality (AR) software enables exhibitionists to create immersive and interactive art installations, captivating audiences with personalized experiences while fostering collaboration and creativity within the community.",
     image: "/images/projects/exhibitionist.jpg",
@@ -78,7 +69,7 @@ const dojosData = [
     previewUrl: "/",
   },
   {
-    id: 9,
+    id: 8,
     title: "Gamers",
     description: "Use open-source technology to create a collaborative game development platform where gamers can collectively design and modify game levels, fostering an inclusive and creative gaming community.",
     image: "/images/projects/videogamers.jpg",
@@ -87,7 +78,7 @@ const dojosData = [
     previewUrl: "/",
   },
   {
-    id: 10,
+    id: 9,
     title: "Graphic Designers",
     description: "Open-source technology can enable graphic designers to collaborate and experiment with cutting-edge design tools and frameworks, fostering a vibrant community for sharing resources, inspiration, and creative solutions.",
     image: "/images/projects/graphicdesigner.jpg",
@@ -96,7 +87,7 @@ const dojosData = [
     previewUrl: "/",
   },
   {
-    id: 11,
+    id: 10,
     title: "Jewelers",
     description: "Use open-source 3D printing software and hardware to create customizable jewelry designs, empowering jewelers to offer unique and personalized pieces to their customers at an affordable cost.",
     image: "images/projects/jeweler.jpg",
@@ -105,7 +96,7 @@ const dojosData = [
     previewUrl: "/",
   },
   {
-    id: 12,
+    id: 11,
     title: "Musicians",
     description: "Create a collaborative open-source platform for actors, directors, and playwrights to share and co-create scripts, allowing for global collaboration and innovation in the world of theater. This platform could also facilitate virtual auditions and rehearsals, making theater accessible to a wider audience and fostering a vibrant online theater community.",
     image: "/images/projects/musicalartist.jpg",
@@ -114,7 +105,7 @@ const dojosData = [
     previewUrl: "/",
   },
   {
-    id: 13,
+    id: 12,
     title: "Thespians",
     description: "Create a collaborative open-source platform for actors, directors, and playwrights to share and co-create scripts, allowing for global collaboration and innovation in the world of theater. This platform could also facilitate virtual auditions and rehearsals, making theater accessible to a wider audience and fostering a vibrant online theater community.",
     image: "/images/projects/thespian.jpg",
@@ -144,6 +135,7 @@ const DojosSection = () => {
 
   return (
     <section id="dojos">
+            <br></br>
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         Wow your Customers
       </h2>
@@ -164,12 +156,12 @@ const DojosSection = () => {
         <ProjectTag
           onClick={handleTagChange}
           name="Hospitality"
-          isSelected={tag === "The Arts"}
+          isSelected={tag === "Hospitality"}
         />
         <ProjectTag
           onClick={handleTagChange}
           name="The Arts"
-          isSelected={tag === "Hospitality"}
+          isSelected={tag === "The Arts"}
         />
         </div>
   

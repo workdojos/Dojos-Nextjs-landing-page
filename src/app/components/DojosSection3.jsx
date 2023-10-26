@@ -8,7 +8,7 @@ const dojosData = [
   {
     id: 1,
     title: "Growers",
-    description: "As an Account Executive, leverage open-source CRM software to seamlessly manage client relationships, track sales activities, and analyze data, enhancing sales effectiveness and productivity.",
+    description: "Use open-source sensor technology to create a smart greenhouse system that monitors temperature, humidity, and light levels, providing real-time data and automated adjustments for optimal cannabis growth, maximizing yield and reducing costs.",
     image: "/images/projects/growers.jpg",
     tag: ["All", "Health & Wellness"],
     gitUrl: "https://og.admins.live/#Growers",
@@ -17,7 +17,7 @@ const dojosData = [
   {
     id: 2,
     title: "Doctors",
-    description: "Open-source technology can be used by administrators to create a collaborative task management platform, allowing teams to efficiently coordinate and track their progress while fostering a sense of shared responsibility and engagement.",
+    description: "Use open-source telemedicine platforms to enable doctors to provide remote consultations and collaborate with colleagues globally, improving accessibility to healthcare and facilitating knowledge sharing for better patient outcomes.",
     image: "/images/projects/clinician.jpg",
     tag: ["All", "Health & Wellness"],
     gitUrl: "https://og.admins.live/#Doctors",
@@ -26,7 +26,7 @@ const dojosData = [
   {
     id: 3,
     title: "Explorers",
-    description: "Use open-source technology to create a virtual reality showroom for car dealers, allowing customers to explore and customize vehicles from the comfort of their homes.",
+    description: "Open-source technology can be used by explorers to create a collaborative mapping platform that allows individuals to share real-time discoveries and navigate uncharted territories, fostering global exploration and discovery.",
     image: "/images/projects/explorers.jpg",
     tag: ["All", "Travel"],
     gitUrl: "https://og.admins.live/#Explorers",
@@ -35,7 +35,7 @@ const dojosData = [
   {
     id: 4,
     title: "Life Coaches",
-    description: "As a clerk, you can utilize open-source technology to automate document management and streamline administrative tasks, improving efficiency and reducing manual workload.",
+    description: "Open-source technology can be utilized by life coaches to develop a collaborative online platform that offers personalized goal tracking and interactive coaching sessions, fostering client engagement and promoting self-improvement.",
     image: "/images/projects/lifecoaches.jpg",
     tag: ["All", "Health & Wellness"],
     gitUrl: "https://og.admins.live/#Life-Coaches",
@@ -44,7 +44,7 @@ const dojosData = [
   {
     id: 5,
     title: "Neighbors",
-    description: "Utilizing open-source social media analytics tools, digital marketers can gain valuable insights on audience behavior, optimize campaigns, and measure the impact of their strategies, all while saving costs and fostering collaboration within the marketing team.",
+    description: "Neighborhood volunteers can use open-source technology to create a community-driven platform for sharing resources and organizing events, fostering collaboration and empowerment within the local community.",
     image: "images/projects/neighborly.jpg",
     tag: ["All", "Public Services"],
     gitUrl: "https://og.admins.live/#Neighbors",
@@ -53,7 +53,7 @@ const dojosData = [
   {
     id: 6,
     title: "Park Rangers",
-    description: "Open-source technology can be used by lead generators to build a customizable chatbot that automates lead qualification and captures valuable customer information, enhancing efficiency and improving lead generation efforts.",
+    description: "Open-source technology can be used by park rangers to develop a mobile app that enables visitors to identify local flora and fauna, fostering environmental awareness and engagement.",
     image: "/images/projects/parkranger.jpg",
     tag: ["All", "Public Services"],
     gitUrl: "https://og.admins.live/#Park-Rangers",
@@ -62,7 +62,7 @@ const dojosData = [
   {
     id: 7,
     title: "Pharmacists",
-    description: "Open-source technology can be utilized by news correspondents to create an AI-powered fact-checking tool that automatically verifies information in real-time, enabling accurate reporting and combating misinformation.",
+    description: "Open-source technology can be used by pharmacists to develop a collaborative medication management platform that enables real-time sharing of drug interactions and personalized treatment recommendations, improving patient safety and healthcare outcomes.",
     image: "/images/projects/pharmacists.jpg",
     tag: ["All", "Health & Wellness"],
     gitUrl: "https://og.admins.live/#Pharmacists",
@@ -71,7 +71,7 @@ const dojosData = [
   {
     id: 8,
     title: "Physical Therapists",
-    description: "PR Representative: Utilizing open-source technology, create a dynamic media monitoring dashboard that consolidates real-time news mentions and social media analytics, enabling PR representatives to track and analyze brand sentiment and campaign effectiveness more efficiently.",
+    description: "Open-source technology can be used by Registered Nurses to develop a collaborative mobile app that enables real-time communication and information sharing among healthcare professionals, improving patient care coordination and efficiency.",
     image: "/images/projects/physicaltherapist.jpg",
     tag: ["All", "Health & Wellness"],
     gitUrl: "https://og.admins.live/#Physical-Therapists",
@@ -89,7 +89,7 @@ const dojosData = [
   {
     id: 10,
     title: "Social Workers",
-    description: "Open-source technology can be used by retailers to create personalized shopping experiences through AI-powered recommendation systems, enhancing customer satisfaction and boosting sales.",
+    description: "Open-source technology can be used by social workers to develop a collaborative platform for sharing resources, case studies, and best practices, fostering a global community of practitioners. This platform could also incorporate AI-powered analytics to identify trends and patterns, enabling data-driven decision-making and improving social interventions. By leveraging open-source technology, social workers can enhance their impact and create a more connected and effective support system for vulnerable populations.",
     image: "/images/projects/socialworker.jpg",
     tag: ["All", "Public Services"],
     gitUrl: "https://og.admins.live/#Social-Workers",
@@ -98,7 +98,7 @@ const dojosData = [
   {
     id: 11,
     title: "Travel Agents",
-    description: "Create an open-source virtual sales training platform that combines interactive simulations and AI-powered coaching to enhance sales coaching effectiveness, empowering sales coaches to train and mentor their teams remotely with engaging, personalized experiences.",
+    description: "Use open-source technology to build a travel itinerary generator that suggests personalized destinations, accommodations, and activities based on user preferences, leveraging crowd-sourced reviews and real-time data. This tool can streamline the travel planning process, enhance customer satisfaction, and enable Travel Agents to offer unique and tailored experiences to their clients.",
     image: "images/projects/travelagents.jpg",
     tag: ["All", "Travel"],
     gitUrl: "https://og.admins.live/#Travel-Agents",
@@ -107,7 +107,7 @@ const dojosData = [
   {
     id: 12,
     title: "Yoga Instructors",
-    description: "Open-source technology can be utilized by telemarketers to create a personalized voice-bot assistant that dynamically adapts its responses based on caller preferences, enhancing customer engagement and satisfaction. This intelligent system can be further integrated with CRM platforms and analytics tools to optimize lead conversion rates and improve overall telemarketing performance.",
+    description: "Open-source technology can be used by Yoga Instructors to develop a customizable virtual reality (VR) yoga experience, allowing students to practice in immersive virtual environments with real-time feedback and guidance, enhancing their yoga journey and accessibility to the practice.",
     image: "/images/projects/yogainstructor.jpg",
     tag: ["All", "Health & Wellness"],
     gitUrl: "https://og.admins.live/#Yoga-Instructors",
@@ -135,6 +135,7 @@ const DojosSection = () => {
 
   return (
     <section id="dojos">
+            <br></br>
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         Health & Happiness
       </h2>

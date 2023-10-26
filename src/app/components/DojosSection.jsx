@@ -112,7 +112,9 @@ const dojosData = [
     tag: ["All", "Sales"],
     gitUrl: "https://og.admins.live/#Telemarketers",
     previewUrl: "/",
+
   },
+  
 ];
 
 const DojosSection = () => {
@@ -135,6 +137,7 @@ const DojosSection = () => {
 
   return (
     <section id="dojos">
+
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         Grow your Business
       </h2>
@@ -155,7 +158,7 @@ const DojosSection = () => {
         <ProjectTag
           onClick={handleTagChange}
           name="Comms"
-          isSelected={tag === "Comms"}
+          isSelected={tag === "Communications"}
         />
         <ProjectTag
           onClick={handleTagChange}
