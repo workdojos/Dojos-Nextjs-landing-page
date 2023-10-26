@@ -97,7 +97,7 @@ const TAB_DATA = [
       id: "costs",
       content: (
         <ul className="list-disc pl-2">
-          <li>$7/mo (4-core CPU, 8GB of RAM, 100GB of storage)</li>
+          <li>$7/mo (4-core CPU, 8GB RAM, 50GB storage)</li>
         </ul>
       ),
     },
@@ -119,12 +119,8 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image style={{ borderRadius: 16}}src="/images/neon.png" width={500} height={500}   />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Dojos </h2>
-          <p className="text-base lg:text-lg">
-            A digital home away from home.
-          <br></br>
-          <br></br>
-          </p>
+          <h2 className="text-4xl font-bold text-white mb-4">A Digital Home Away From Home</h2>
+
 
 
           <p className="text-base lg:text-lg">
@@ -171,7 +167,7 @@ const AboutSection = () => {
               active={tab === "costs"}
             >
               {" "}
-              Costs{" "}
+              Cost{" "}
             </TabButton>
           </div>
           <div className="mt-8">
