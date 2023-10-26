@@ -19,7 +19,7 @@ const dojosData = [
     title: "Administrators",
     description: "Open-source technology can be used by administrators to create a collaborative task management platform, allowing teams to efficiently coordinate and track their progress while fostering a sense of shared responsibility and engagement.",
     image: "/images/projects/administrator.jpg",
-    tag: ["All", "Administration"],
+    tag: ["All", "Admin"],
     gitUrl: "https://og.admins.live/#Administrators",
     previewUrl: "/",
   },
@@ -64,7 +64,7 @@ const dojosData = [
     title: "Correspondents",
     description: "Open-source technology can be utilized by news correspondents to create an AI-powered fact-checking tool that automatically verifies information in real-time, enabling accurate reporting and combating misinformation.",
     image: "/images/projects/correspondents.jpg",
-    tag: ["All", "Communications"],
+    tag: ["All", "Comms"],
     gitUrl: "https://og.admins.live/#Correspondents",
     previewUrl: "/images/projects/academies.jpg",
   },
@@ -73,7 +73,7 @@ const dojosData = [
     title: "Public Relations",
     description: "PR Representative: Utilizing open-source technology, create a dynamic media monitoring dashboard that consolidates real-time news mentions and social media analytics, enabling PR representatives to track and analyze brand sentiment and campaign effectiveness more efficiently.",
     image: "/images/projects/publicrelations.jpg",
-    tag: ["All", "Communications"],
+    tag: ["All", "Comms"],
     gitUrl: "https://og.admins.live/#Public-Relations",
     previewUrl: "/",
   },
@@ -82,7 +82,7 @@ const dojosData = [
     title: "Project Managers",
     description: "Open-source project management software provides collaborative task tracking and real-time updates, empowering project managers to efficiently coordinate teams and streamline project workflows.",
     image: "/images/projects/projectmanagers.jpg",
-    tag: ["All", "Administration"],
+    tag: ["All", "Admin"],
     gitUrl: "https://og.admins.live/#Project-Managers",
     previewUrl: "/",
   },
@@ -146,16 +146,16 @@ const DojosSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Administration"
-          isSelected={tag === "Administration"}
+          name="Admin"
+          isSelected={tag === "Admin"}
         />
         </div>
         <div className="text-white flex flex-flow justify-center items-center gap-2 pb-8">
         
         <ProjectTag
           onClick={handleTagChange}
-          name="Communications"
-          isSelected={tag === "Communications"}
+          name="Comms"
+          isSelected={tag === "Comms"}
         />
         <ProjectTag
           onClick={handleTagChange}
