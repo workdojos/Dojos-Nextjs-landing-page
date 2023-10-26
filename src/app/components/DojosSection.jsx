@@ -7,56 +7,110 @@ import { motion, useInView } from "framer-motion";
 const dojosData = [
   {
     id: 1,
-    title: "Academic",
-    description: "Create an open-source virtual classroom platform that empowers academic faculty to engage students in interactive and immersive learning experiences, fostering collaboration and knowledge sharing.",
-    image: "/images/projects/1.jpg",
-    tag: ["All", "Web"],
-    gitUrl: "https://academies.workdojos.com/",
-    previewUrl: "https://www.aza.org/",
+    title: "Account Executive",
+    description: "As an Account Executive, leverage open-source CRM software to seamlessly manage client relationships, track sales activities, and analyze data, enhancing sales effectiveness and productivity.",
+    image: "/images/projects/accountexecutive.jpg",
+    tag: ["All", "Sales"],
+    gitUrl: "https://og.admins.live/#Account-Executives-Dojo",
+    previewUrl: "/",
   },
   {
     id: 2,
-    title: "IMATA",
-    description: "2. International Marine Animal Trainers Association (IMATA) - IMATA offers resources specifically for those interested in animal training. Their website provides access to publications, training techniques, and networking opportunities.",
-    image: "/images/projects/2.jpg",
-    tag: ["All", "Web"],
-    gitUrl: "https://www.imata.org/",
+    title: "Administrators",
+    description: "Open-source technology can be used by administrators to create a collaborative task management platform, allowing teams to efficiently coordinate and track their progress while fostering a sense of shared responsibility and engagement.",
+    image: "/images/projects/administrator.jpg",
+    tag: ["All", "Administration"],
+    gitUrl: "https://og.admins.live/#Administrators",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "AAZK",
-    description: "3. American Association of Zoo Keepers (AAZK) - AAZK offers professional development opportunities, including conferences, workshops, and certifications, to help zookeepers enhance their skills in various areas, such as animal behavior and husbandry.",
-    image: "/images/projects/3.jpg",
-    tag: ["All", "Web"],
-    gitUrl: "https://aazk.org/",
+    title: "Car Dealers",
+    description: "Use open-source technology to create a virtual reality showroom for car dealers, allowing customers to explore and customize vehicles from the comfort of their homes.",
+    image: "/images/projects/dealerships.jpg",
+    tag: ["All", "Sales"],
+    gitUrl: "https://og.admins.live/#Car-Dealers",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "WCS",
-    description: "4. Wildlife Conservation Society (WCS) - The WCS website provides valuable information on wildlife management and conservation. Additionally, they offer training courses and job opportunities for those interested in working in this field.",
-    image: "/images/projects/4.jpg",
-    tag: ["All", "Web"],
-    gitUrl: "https://www.wcs.org/",
+    title: "Clerks",
+    description: "As a clerk, you can utilize open-source technology to automate document management and streamline administrative tasks, improving efficiency and reducing manual workload.",
+    image: "/images/projects/clerk.jpg",
+    tag: ["All", "Sales"],
+    gitUrl: "https://og.admins.live/#Clerks",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "ZooBiology",
-    description: "5. ZooBiology - This online resource features numerous articles, webinars, and forums focused on various aspects of zookeeping, including animal nutrition, veterinary medicine, and environmental enrichment.",
-    image: "images/projects/5.jpg",
-    tag: ["All", "Web"],
-    gitUrl: "https://onlinelibrary.wiley.com/journal/10982361",
+    title: "Digital Marketers",
+    description: "Utilizing open-source social media analytics tools, digital marketers can gain valuable insights on audience behavior, optimize campaigns, and measure the impact of their strategies, all while saving costs and fostering collaboration within the marketing team.",
+    image: "images/projects/digitalmarketers.jpg",
+    tag: ["All", "Marketing"],
+    gitUrl: "https://og.admins.live/#Digital-Marketers",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "ZAA",
-    description: "6. Zoo and Aquarium Association (ZAA) - ZAA offers educational programs, workshops, and networking events for zookeepers interested in learning about different species and advancing their career in the industry.",
-    image: "/images/projects/6.jpg",
-    tag: ["All"],
-    gitUrl: "https://www.zooaquarium.org.au/",
+    title: "Lead Generators",
+    description: "Open-source technology can be used by lead generators to build a customizable chatbot that automates lead qualification and captures valuable customer information, enhancing efficiency and improving lead generation efforts.",
+    image: "/images/projects/leadgenerator.jpg",
+    tag: ["All", "Marketing"],
+    gitUrl: "https://og.admins.live/#Lead-Generators",
+    previewUrl: "/",
+  },
+  {
+    id: 7,
+    title: "Correspondents",
+    description: "Open-source technology can be utilized by news correspondents to create an AI-powered fact-checking tool that automatically verifies information in real-time, enabling accurate reporting and combating misinformation.",
+    image: "/images/projects/correspondents.jpg",
+    tag: ["All", "Communications"],
+    gitUrl: "https://og.admins.live/#Correspondents",
+    previewUrl: "/images/projects/academies.jpg",
+  },
+  {
+    id: 8,
+    title: "Public Relations",
+    description: "PR Representative: Utilizing open-source technology, create a dynamic media monitoring dashboard that consolidates real-time news mentions and social media analytics, enabling PR representatives to track and analyze brand sentiment and campaign effectiveness more efficiently.",
+    image: "/images/projects/publicrelations.jpg",
+    tag: ["All", "Communications"],
+    gitUrl: "https://og.admins.live/#Public-Relations",
+    previewUrl: "/",
+  },
+  {
+    id: 9,
+    title: "Project Managers",
+    description: "Open-source project management software provides collaborative task tracking and real-time updates, empowering project managers to efficiently coordinate teams and streamline project workflows.",
+    image: "/images/projects/projectmanagers.jpg",
+    tag: ["All", "Administration"],
+    gitUrl: "https://og.admins.live/#Project-Managers",
+    previewUrl: "/",
+  },
+  {
+    id: 10,
+    title: "Retailers",
+    description: "Open-source technology can be used by retailers to create personalized shopping experiences through AI-powered recommendation systems, enhancing customer satisfaction and boosting sales.",
+    image: "/images/projects/retailers.jpg",
+    tag: ["All", "Sales"],
+    gitUrl: "https://og.admins.live/#Retailers",
+    previewUrl: "/",
+  },
+  {
+    id: 11,
+    title: "Sales Coaches",
+    description: "Create an open-source virtual sales training platform that combines interactive simulations and AI-powered coaching to enhance sales coaching effectiveness, empowering sales coaches to train and mentor their teams remotely with engaging, personalized experiences.",
+    image: "images/projects/salescoaches.jpg",
+    tag: ["All", "Sales"],
+    gitUrl: "https://og.admins.live/#Sales-Coaches",
+    previewUrl: "/",
+  },
+  {
+    id: 12,
+    title: "Telemarketers",
+    description: "Open-source technology can be utilized by telemarketers to create a personalized voice-bot assistant that dynamically adapts its responses based on caller preferences, enhancing customer engagement and satisfaction. This intelligent system can be further integrated with CRM platforms and analytics tools to optimize lead conversion rates and improve overall telemarketing performance.",
+    image: "/images/projects/telemarketer.jpg",
+    tag: ["All", "Sales"],
+    gitUrl: "https://og.admins.live/#Telemarketers",
     previewUrl: "/",
   },
 ];
@@ -92,9 +146,26 @@ const DojosSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Administration"
+          isSelected={tag === "Administration"}
         />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Marketing"
+          isSelected={tag === "Marketing"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Communications"
+          isSelected={tag === "Communications"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Sales"
+          isSelected={tag === "Sales"}
+        />
+
+        
 
 
       </div>
