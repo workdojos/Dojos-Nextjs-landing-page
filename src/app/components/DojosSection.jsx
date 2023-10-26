@@ -146,14 +146,17 @@ const DojosSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Administration"
-          isSelected={tag === "Administration"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
           name="Marketing"
           isSelected={tag === "Marketing"}
         />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Administration"
+          isSelected={tag === "Administration"}
+        />
+        </div>
+        <div className="text-white flex flex-flow justify-center items-center gap-2 pb-8">
+        
         <ProjectTag
           onClick={handleTagChange}
           name="Communications"
@@ -164,11 +167,7 @@ const DojosSection = () => {
           name="Sales"
           isSelected={tag === "Sales"}
         />
-
-        
-
-
-      </div>
+        </div>
   
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
