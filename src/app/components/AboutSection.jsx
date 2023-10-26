@@ -23,8 +23,8 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "use-cases",
-    id: "use-cases",
+    title: "uses",
+    id: "uses",
     content: (
       <ul className="list-disc pl-2">
         
@@ -105,7 +105,7 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("use-cases");
+  const [tab, setTab] = useState("uses");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -146,11 +146,11 @@ const AboutSection = () => {
               Apps{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("use-cases")}
-              active={tab === "use-cases"}
+              selectTab={() => handleTabChange("uses")}
+              active={tab === "uses"}
             >
               {" "}
-              Use-cases{" "}
+              Uses{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("skills")}

@@ -6,6 +6,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
+import DojosSection from "./components/DojosSection";
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
         <HeroSection />
         <AchievementsSection />
         <AboutSection />
+        <DojosSection />
         <ProjectsSection />
         <EmailSection />
       </div>

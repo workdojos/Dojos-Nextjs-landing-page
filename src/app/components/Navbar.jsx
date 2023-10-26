@@ -11,6 +11,11 @@ const navLinks = [
     path: "http://zookeepers.workmates.live/#about",
   },
   {
+    title: "Dojos",
+    path: "http://zookeepers.workmates.live/#dojos",
+  },
+  
+  {
     title: "Resources",
     path: "http://zookeepers.workmates.live/#resources",
   },
