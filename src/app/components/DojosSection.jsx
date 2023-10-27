@@ -27,7 +27,7 @@ const dojosData = [
     id: 4,
     title: "Clerks",
     description: "As a clerk, you can utilize open-source technology to automate document management and streamline administrative tasks, improving efficiency and reducing manual workload.",
-    image: "/images/projects/clerk.jpg",
+    image: "/images/projects/clerk.png",
     tag: ["All", "Sales"],
     gitUrl: "https://og.admins.live/#Clerks",
     previewUrl: "/",
@@ -109,7 +109,7 @@ const DojosSection = () => {
   };
 
   return (
-    <section id="dojos">
+    <section id="business">
 
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         Grow your Business

@@ -105,14 +105,14 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image style={{ borderRadius: 16}}src="/images/spark.gif" width={500} height={500}   />
+        <Image style={{ borderRadius: 16}}src="/images/spark2.gif" width={307} height={307}   />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">The 60-Day Self-Hosting Challenge</h2>
 
 
 
           <p className="text-base lg:text-lg">
-            We will subsidize the cost of your Dojo for a full 60 days.  No strings attached.  Give the many wonders of open-source tech a try.  You will be absolutely amazed at what 25 cents a day can do for you, your family, your business, and digital well-being.
+            We will subsidize the cost of your Dojo for a full 60 days.  No strings attached.  Give the many wonders of open-source tech a try.  You will be absolutely amazed at what you can do for yourself, your family, business, and overall digital well-being.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

@@ -63,7 +63,7 @@ const dojosData = [
     id: 7,
     title: "Exhibitionists",
     description: "Open-source augmented reality (AR) software enables exhibitionists to create immersive and interactive art installations, captivating audiences with personalized experiences while fostering collaboration and creativity within the community.",
-    image: "/images/projects/exhibitionist.jpg",
+    image: "/images/projects/exhibitionist.png",
     tag: ["All", "The Arts"],
     gitUrl: "https://og.admins.live/#Exhibitionists",
     previewUrl: "/",
@@ -90,7 +90,7 @@ const dojosData = [
     id: 10,
     title: "Jewelers",
     description: "Use open-source 3D printing software and hardware to create customizable jewelry designs, empowering jewelers to offer unique and personalized pieces to their customers at an affordable cost.",
-    image: "images/projects/jeweler.jpg",
+    image: "images/projects/jeweler.png",
     tag: ["All", "The Arts"],
     gitUrl: "https://og.admins.live/#Jewelers",
     previewUrl: "/",
@@ -134,7 +134,7 @@ const DojosSection = () => {
   };
 
   return (
-    <section id="dojos">
+    <section id="customers">
             <br></br>
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         Wow your Customers

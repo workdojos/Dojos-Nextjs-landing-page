@@ -45,7 +45,7 @@ const dojosData = [
     id: 5,
     title: "Spiritual Coaches",
     description: "Create an open-source meditation app that allows spiritual coaches to offer guided meditation sessions, personalized affirmations, and mindfulness exercises to their clients, fostering spiritual growth and well-being while promoting community engagement and collaboration in the open-source community.",
-    image: "images/projects/spiritualcoach.jpg",
+    image: "images/projects/spiritualcoach.png",
     tag: ["All", "Religion"],
     gitUrl: "https://og.admins.live/#Spiritual-Coaches",
     previewUrl: "/",
@@ -81,7 +81,7 @@ const DojosSection = () => {
   };
 
   return (
-    <section id="dojos">
+    <section id="knowledge">
             <br></br>
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         The Pursuit of Knowledge

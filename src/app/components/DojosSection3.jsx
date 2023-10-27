@@ -72,7 +72,7 @@ const dojosData = [
     id: 8,
     title: "Physical Therapists",
     description: "Open-source technology can be used by Registered Nurses to develop a collaborative mobile app that enables real-time communication and information sharing among healthcare professionals, improving patient care coordination and efficiency.",
-    image: "/images/projects/physicaltherapist.jpg",
+    image: "/images/projects/physicaltherapist.png",
     tag: ["All", "Health & Wellness"],
     gitUrl: "https://og.admins.live/#Physical-Therapists",
     previewUrl: "/",
@@ -134,7 +134,7 @@ const DojosSection = () => {
   };
 
   return (
-    <section id="dojos">
+    <section id="health">
             <br></br>
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         Health & Happiness
