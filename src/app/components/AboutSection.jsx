@@ -73,7 +73,7 @@ const TAB_DATA = [
         <li>Automation</li>
         <li>Digital Marketing</li>
         <li>Teaching</li>
-        <li>AI+</li>
+        <li>AI</li>
       </ul>
       ),
   },  
@@ -107,7 +107,6 @@ const TAB_DATA = [
 const AboutSection = () => {
   const [tab, setTab] = useState("uses");
   const [isPending, startTransition] = useTransition();
-
   const handleTabChange = (id) => {
     startTransition(() => {
       setTab(id);
