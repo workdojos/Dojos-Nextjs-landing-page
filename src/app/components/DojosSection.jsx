@@ -24,15 +24,6 @@ const dojosData = [
     previewUrl: "/",
   },
   {
-    id: 3,
-    title: "Car Dealers",
-    description: "Use open-source technology to create a virtual reality showroom for car dealers, allowing customers to explore and customize vehicles from the comfort of their homes.",
-    image: "/images/projects/dealerships.jpg",
-    tag: ["All", "Sales"],
-    gitUrl: "https://og.admins.live/#Car-Dealers",
-    previewUrl: "/",
-  },
-  {
     id: 4,
     title: "Clerks",
     description: "As a clerk, you can utilize open-source technology to automate document management and streamline administrative tasks, improving efficiency and reducing manual workload.",
@@ -60,15 +51,6 @@ const dojosData = [
     previewUrl: "/",
   },
   {
-    id: 7,
-    title: "Correspondents",
-    description: "Open-source technology can be utilized by news correspondents to create an AI-powered fact-checking tool that automatically verifies information in real-time, enabling accurate reporting and combating misinformation.",
-    image: "/images/projects/correspondents.jpg",
-    tag: ["All", "Comms"],
-    gitUrl: "https://og.admins.live/#Correspondents",
-    previewUrl: "/images/projects/academies.jpg",
-  },
-  {
     id: 8,
     title: "Public Relations",
     description: "PR Representative: Utilizing open-source technology, create a dynamic media monitoring dashboard that consolidates real-time news mentions and social media analytics, enabling PR representatives to track and analyze brand sentiment and campaign effectiveness more efficiently.",
@@ -84,15 +66,6 @@ const dojosData = [
     image: "/images/projects/projectmanagers.jpg",
     tag: ["All", "Admin"],
     gitUrl: "https://og.admins.live/#Project-Managers",
-    previewUrl: "/",
-  },
-  {
-    id: 10,
-    title: "Retailers",
-    description: "Open-source technology can be used by retailers to create personalized shopping experiences through AI-powered recommendation systems, enhancing customer satisfaction and boosting sales.",
-    image: "/images/projects/retailers.jpg",
-    tag: ["All", "Sales"],
-    gitUrl: "https://og.admins.live/#Retailers",
     previewUrl: "/",
   },
   {

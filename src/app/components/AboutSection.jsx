@@ -167,7 +167,7 @@ const AboutSection = () => {
               active={tab === "costs"}
             >
               {" "}
-              Cost{" "}
+              Costs{" "}
             </TabButton>
           </div>
           <div className="mt-8">
