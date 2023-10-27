@@ -73,7 +73,7 @@ const TAB_DATA = [
         <li>Automation</li>
         <li>Digital Marketing</li>
         <li>Teaching</li>
-        <li>AI</li>
+        <li>AI+</li>
       </ul>
       ),
   },  
