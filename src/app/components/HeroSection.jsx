@@ -17,19 +17,19 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Dojos{" "}
+              Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Free",
+                "Judy",
                 1000,
-                "Open-Source",
+                "Web Developer",
                 1000,
-                "Easy",
+                "Mobile Developer",
                 1000,
-
-                
+                "UI/UX Designer",
+                1000,
               ]}
               wrapper="span"
               speed={50}
@@ -37,21 +37,21 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Take the first step into everything open-source.  It's easier than you think.  We'll show you how.  For free.
+          Take the first step into everything open-source.  It's easier than you think.  We'll show you how.  For free.
           </p>
           <div>
             <Link
-              href="XXX"
+              href="https://blog.workdojos.com/#/portal/signup"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Join for Free
             </Link>
             <Link
-              href="mailto:admin@workmates.live"
+              href="mailto:dojos@tuta.com"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                E-mail Me
+               E-mail Me
               </span>
             </Link>
           </div>
@@ -64,20 +64,11 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-<<<<<<< HEAD
-              style={{borderRadius: 20}}
               src="/images/dojofans.gif"
-              alt="A beautiful Asian woman lighting up"
-              className=".img-container"
-              width={307}
-              height={307}
-=======
-              src="/images/dojos.png"
-              alt="hero image of me backpacking in Patagonia"
+              alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={500}
-              height={500}
->>>>>>> f2e010805613f9406adc0eb4c44788a89a13c02c
+              width={300}
+              height={300}
             />
           </div>
         </motion.div>
@@ -87,3 +78,5 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+
