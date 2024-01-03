@@ -64,8 +64,21 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
+<<<<<<< HEAD
               src="/images/sandbox tv.svg"
               alt="hero image"
+=======
+<<<<<<< HEAD
+              style={{borderRadius: 20}}
+              src="/images/dojofans.gif"
+              alt="A beautiful Asian woman lighting up"
+              className=".img-container"
+              width={307}
+              height={307}
+=======
+              src="/images/sandbox tv.svg"
+              alt="TV sandbox"
+>>>>>>> a7896ea24208f53e98c065b138bd79375a668443
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}
