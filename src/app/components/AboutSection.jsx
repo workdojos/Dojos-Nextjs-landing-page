@@ -4,7 +4,7 @@ import Image from "next/image";
 import TabButton from "./TabButton";
 
 const TAB_DATA = [
-  as{
+  {
     title: "Features",
     id: "features",
     content: (
