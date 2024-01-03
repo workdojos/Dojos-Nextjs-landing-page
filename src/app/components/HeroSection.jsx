@@ -28,6 +28,8 @@ const HeroSection = () => {
                 1000,
                 "Easy",
                 1000,
+                "Rewarding",
+                1000,
 
                 
               ]}
