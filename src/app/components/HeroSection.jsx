@@ -66,7 +66,11 @@ const HeroSection = () => {
             <Image
               style={{borderRadius: 20}}
               src="/images/winner.gif"
-              alt="A beautiful Asian woman lighting up"
+<<<<<<< HEAD
+              alt="A beautiful Asian woman smiling and lighting up"
+=======
+              alt="A beautiful Swedish woman typing"
+>>>>>>> 8c8257f6e7c7765a2a3fa7d483d9a8799bf0e5ae
               className=".img-container"
               width={307}
               height={307}
