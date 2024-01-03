@@ -17,17 +17,14 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Dojos{" "}
+              Are{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Free",
+                "You Ready?",
                 1000,
-                "Fun",
-                1000,
-                "Easy",
-                1000,
+
 
                 
               ]}
@@ -37,21 +34,21 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Take the first step into everything open-source.  We will show you how.  For free.
+            Sign up for free and prepare for lift-off.
           </p>
           <div>
             <Link
-              href="https://blog.workdojos.com/#/portal/signup"
+              href="https://blog.workdojos.com/60-day-self-hosting-challenge"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
-              Join for Free
+              Take the Challenge
             </Link>
             <Link
               href="#contact"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                60-Day Self-Hosting Challenge
+                Have Questions?
               </span>
             </Link>
           </div>
@@ -65,22 +62,8 @@ const HeroSection = () => {
           <div className="lg:w-[400px] lg:h-[300px] relative ">
             <Image
               style={{borderRadius: 20}}
-<<<<<<< HEAD
-              src="/images/typeX4.gif"
-              alt="A beautiful Swedish woman typing"
-=======
-<<<<<<< HEAD
               src="/images/winner.gif"
-<<<<<<< HEAD
-              alt="A beautiful Asian woman smiling and lighting up"
-=======
-              alt="A beautiful Swedish woman typing"
->>>>>>> 8c8257f6e7c7765a2a3fa7d483d9a8799bf0e5ae
-=======
-              src="/images/sandbox tv.svg"
-              alt="A vintage tv depicting a tropical paradise"
->>>>>>> 2d0463812d371b3918accc9a1accd2618492073b
->>>>>>> 3517dbee405dd87f3c796f44a753585e72657710
+              alt="A beautiful Swedish woman holding a trophy"
               className=".img-container"
               width={307}
               height={307}
