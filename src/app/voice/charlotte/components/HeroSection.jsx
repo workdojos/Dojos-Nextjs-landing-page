@@ -24,7 +24,7 @@ const HeroSection = () => {
               sequence={[
                 "Free",
                 1000,
-                "Fun",
+                "Open-Source",
                 1000,
                 "Easy",
                 1000,
@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Take the 60-day self-hosting challenge and behold the many wonders of open-source technology.
+            Take the first step into everything open-source.  We will show you how.  For free.
           </p>
           <div>
             <Link
@@ -65,8 +65,8 @@ const HeroSection = () => {
           <div className="lg:w-[400px] lg:h-[300px] relative ">
             <Image
               style={{borderRadius: 20}}
-              src="/images/sandbox tv.svg"
-              alt="A vintage tv depicting a tropical paradise"
+              src="/images/typeX4.gif"
+              alt="A beautiful Swedish woman typing"
               className=".img-container"
               width={307}
               height={307}
