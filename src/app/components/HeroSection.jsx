@@ -28,7 +28,20 @@ const HeroSection = () => {
                 1000,
                 "Easy",
                 1000,
-
+                "Are",
+                1000,
+                "You",
+                1000,
+                "Ready",
+                1000,
+                "To",
+                1000,
+                "Take",
+                1000,
+                "The",
+                1000,
+                "...",
+                1000,
                 
               ]}
               wrapper="span"
@@ -37,7 +50,11 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+<<<<<<< HEAD
             Take the 60-day self-hosting challenge and behold the many wonders of open-source technology.
+=======
+            The 60-Day Self-Hosting Challenge!
+>>>>>>> fb2f328b212e2e1669997e45d1da120c900e36cb
           </p>
           <div>
             <Link
