@@ -9,7 +9,7 @@ const TAB_DATA = [
     id: "features",
     content: (
       <ul className="list-disc pl-2">
-        <li>Industry-Specific Insights (ISI)</li>
+        <li>Industry-Specific Insights</li>
         <li>Workmates hiring hives</li>
         <li>Job scraping</li>
         <li>AI content creation</li>
