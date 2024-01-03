@@ -24,7 +24,7 @@ const HeroSection = () => {
               sequence={[
                 "Free",
                 1000,
-                "Open-Source",
+                "Fun",
                 1000,
                 "Easy",
                 1000,
