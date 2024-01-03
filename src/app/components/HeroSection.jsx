@@ -65,8 +65,22 @@ const HeroSection = () => {
           <div className="lg:w-[400px] lg:h-[300px] relative ">
             <Image
               style={{borderRadius: 20}}
+<<<<<<< HEAD
               src="/images/typeX4.gif"
               alt="A beautiful Swedish woman typing"
+=======
+<<<<<<< HEAD
+              src="/images/winner.gif"
+<<<<<<< HEAD
+              alt="A beautiful Asian woman smiling and lighting up"
+=======
+              alt="A beautiful Swedish woman typing"
+>>>>>>> 8c8257f6e7c7765a2a3fa7d483d9a8799bf0e5ae
+=======
+              src="/images/sandbox tv.svg"
+              alt="A vintage tv depicting a tropical paradise"
+>>>>>>> 2d0463812d371b3918accc9a1accd2618492073b
+>>>>>>> 3517dbee405dd87f3c796f44a753585e72657710
               className=".img-container"
               width={307}
               height={307}
