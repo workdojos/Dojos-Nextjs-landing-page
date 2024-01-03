@@ -5,128 +5,9 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
+<<<<<<< HEAD
     title: "Features",
     id: "features",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Website, blog, chat app, wiki included for free</li>
-        <li>Industry-Specific Insights</li>
-        <li>Workmates hiring hives</li>
-        <li>Job scraping</li>
-        <li>AI content creation</li>
-        <li>AI cover letter generation</li>
-        <li>Automation</li>
-        <li>Chat</li>
-        <li>Docker</li>
-        <li>Templates (Next.js, React, Hugo, and more)</li>
-      </ul>
-    ),
-  },
-  {
-    title: "uses",
-    id: "uses",
-    content: (
-      <ul className="list-disc pl-2">
-        
-        
-        <li>Build a website (included)</li>
-        <li>Start a blog (included)</li>
-        <li>Start a social network (included)</li>
-        <li>Spin up a dashboard (included)</li>
-        <li>Deliver online courses (included)</li>
-        <li>Share files securely (included)</li>
-        <li>Set up a family media server</li>
-        <li>Create a development environment</li>
-        <li>Automate content creation with AI</li>
-
-
-      </ul>
-    ),
-  
-    
-  
-  },
-  {
-    title: "Apps",
-    id: "apps",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Wordpress</li>
-        <li>Rocket.chat</li>
-        <li>Ghost</li>
-        <li>Organizr</li>
-        <li>Databag</li>
-        <li>Moodle</li>
-        <li>Nextcloud</li>
-        <li>100&apos;s more</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>System administration</li>
-        <li>Web development</li>
-        <li>UI/UX design</li>
-        <li>Automation</li>
-        <li>Digital Marketing</li>
-        <li>Teaching</li>
-        <li>AI</li>
-      </ul>
-      ),
-  },  
-    {
-      title: "Vision",
-      id: "vision",
-      content: (
-        <ul className="list-disc pl-2">
-          <li>Data privacy</li>
-          <li>Technological self-sufficiency</li>
-          <li>Ultimate sandboxing</li>
-          <li>Maximum value</li>
-          <li>Open-source</li>
-          <li>Affordable</li>
-          <li>Approachable</li>
-        </ul>
-      ),
-    },
-    {
-      title: "Costs",
-      id: "costs",
-      content: (
-        <ul className="list-disc pl-2">
-          <li>$7/mo (4-core CPU, 8GB RAM, 50GB storage)</li>
-        </ul>
-      ),
-    },
-    {
-      </ul>
-    {
-      title: "Vision",
-      id: "vision",
-      content: (
-        <ul className="list-disc pl-2">
-          <li>Data privacy</li>
-          <li>Technological self-sufficiency</li>
-          <li>Ultimate sandboxing</li>
-          <li>Maximum value</li>
-          <li>Open-source</li>
-          <li>Affordable</li>
-          <li>Approachable</li>
-        </ul>
-      ),
-    },
-    {
-      title: "Costs",
-      id: "costs",
-      content: (
-        <ul className="list-disc pl-2">
-          <li>$7/mo (4-core CPU, 8GB RAM, 50GB storage)</li>
-        </ul>
-      ),
-    },
     content: (
       <ul className="list-disc pl-2">
         <li>Industry-Specific Insights (ISI)</li>
@@ -141,10 +22,23 @@ const TAB_DATA = [
         <li>Blog</li>
 
         <li>Community collaboration</li>
+=======
+    title: "Skills",
+    id: "skills",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>PostgreSQL</li>
+        <li>Sequelize</li>
+        <li>JavaScript</li>
+        <li>React</li>
+>>>>>>> 6cc2bebf1c3a72fb97d6190b6924e8cf251ec135
       </ul>
     ),
   },
   {
+<<<<<<< HEAD
     title: "use-cases",
     id: "use-cases",
     content: (
@@ -184,6 +78,24 @@ const TAB_DATA = [
         <li>Moodle</li>
         <li>Nextcloud</li>
         <li>and more</li>
+=======
+    title: "Education",
+    id: "education",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Fullstack Academy of Code</li>
+        <li>University of California, Santa Cruz</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Certifications",
+    id: "certifications",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>AWS Cloud Practitioner</li>
+        <li>Google Professional Cloud Developer</li>
+>>>>>>> 6cc2bebf1c3a72fb97d6190b6924e8cf251ec135
       </ul>
     ),
   },
@@ -191,10 +103,9 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
-
-  const [tab, setTab] = useState("features");
   const [tab, setTab] = useState("use-cases");
   const [isPending, startTransition] = useTransition();
+
   const handleTabChange = (id) => {
     startTransition(() => {
       setTab(id);
@@ -203,17 +114,8 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-        <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image style={{ borderRadius: 16}}src="/images/neon.webp" width={500} height={500}   />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">A Digital Home Away From Home</h2>
-
-
-
-          <p className="text-base lg:text-lg">
-            Get maximum value from your own personal cloud.  Dojos is &quot;your place, your way&quot;, and it costs less than 25 cents a day.
-
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+<<<<<<< HEAD
         <Image style={{ borderRadius: 16}}src="/images/spark.gif" width={500} height={500}   />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Dojos </h2>
@@ -243,44 +145,45 @@ const AboutSection = () => {
               Apps{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("uses")}
-              active={tab === "uses"}
-            >
-              {" "}
-              Uses{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
-            >
-              {" "}
-              Features{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("vision")}
-              active={tab === "vision"}
-            >
-              {" "}
-              Vision{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("costs")}
-              active={tab === "costs"}
-            >
-              {" "}
-              Costs{" "}
-              selectTab={() => handleTabChange("apps")}
-              active={tab === "apps"}
-            >
-              {" "}
-              Apps{" "}
-            </TabButton>
-            <TabButton
               selectTab={() => handleTabChange("use-cases")}
               active={tab === "use-cases"}
             >
               {" "}
               Use-cases{" "}
+=======
+        <Image src="/images/about-image.png" width={500} height={500} />
+        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <p className="text-base lg:text-lg">
+            I am a full stack web developer with a passion for creating
+            interactive and responsive web applications. I have experience
+            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
+            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
+            looking to expand my knowledge and skill set. I am a team player and
+            I am excited to work with others to create amazing applications.
+          </p>
+          <div className="flex flex-row justify-start mt-8">
+            <TabButton
+              selectTab={() => handleTabChange("skills")}
+              active={tab === "skills"}
+            >
+              {" "}
+              Skills{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("education")}
+              active={tab === "education"}
+            >
+              {" "}
+              Education{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("certifications")}
+              active={tab === "certifications"}
+            >
+              {" "}
+              Certifications{" "}
+>>>>>>> 6cc2bebf1c3a72fb97d6190b6924e8cf251ec135
             </TabButton>
           </div>
           <div className="mt-8">
