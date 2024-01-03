@@ -72,8 +72,8 @@ const HeroSection = () => {
               width={307}
               height={307}
 =======
-              src="/images/dojos.png"
-              alt="hero image of me backpacking in Patagonia"
+              src="/images/sandbox tv.svg"
+              alt="TV sandbox"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={500}
               height={500}
