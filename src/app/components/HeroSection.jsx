@@ -65,7 +65,7 @@ const HeroSection = () => {
           <div className="lg:w-[400px] lg:h-[300px] relative ">
             <Image
               style={{borderRadius: 20}}
-              src="/images/winner.gif"
+              src="/images/dojofans.gif"
               alt="A beautiful Asian woman lighting up"
               className=".img-container"
               width={307}
