@@ -28,9 +28,20 @@ const HeroSection = () => {
                 1000,
                 "Easy",
                 1000,
-                "Rewarding",
+                "Are",
                 1000,
-
+                "You",
+                1000,
+                "Ready",
+                1000,
+                "To",
+                1000,
+                "Take",
+                1000,
+                "The",
+                1000,
+                "...",
+                1000,
                 
               ]}
               wrapper="span"
@@ -39,7 +50,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Take the first step into everything open-source.  We will show you how.  For free.
+            The 60-Day Self-Hosting Challenge!
           </p>
           <div>
             <Link
@@ -64,26 +75,14 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="lg:w-[400px] lg:h-[300px] relative ">
             <Image
-<<<<<<< HEAD
-              src="/images/sandbox tv.svg"
-              alt="hero image"
-=======
-<<<<<<< HEAD
               style={{borderRadius: 20}}
-              src="/images/dojofans.gif"
-              alt="A beautiful Asian woman lighting up"
+              src="/images/sandbox tv.svg"
+              alt="A vintage tv depicting a tropical paradise"
               className=".img-container"
               width={307}
               height={307}
-=======
-              src="/images/sandbox tv.svg"
-              alt="TV sandbox"
->>>>>>> a7896ea24208f53e98c065b138bd79375a668443
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
             />
           </div>
         </motion.div>
