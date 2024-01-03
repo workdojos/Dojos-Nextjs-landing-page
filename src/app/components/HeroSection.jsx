@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Take the first step into everything open-source.  It's easier than you think.  We'll show you how.  For free.
+            Take the 60-day self-hosting challenge and see how much fun tech can really be.
           </p>
           <div>
             <Link
@@ -64,7 +64,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/dojos.png"
+              src="/images/sandbox tv.svg"
               alt="hero image of me backpacking in Patagonia"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={500}
