@@ -29,7 +29,7 @@ const TAB_DATA = [
     id: "use-cases",
     content: (
       <ul className="list-disc pl-2">
-        <li>Build a website</li>
+        <li>Build a website (for free!)</li>
         <li>Start a blog (for free!)</li>
         <li>Set up a family media server</li>
         <li>Start a social network</li>
