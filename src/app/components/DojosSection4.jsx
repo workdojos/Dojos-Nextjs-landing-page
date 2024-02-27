@@ -11,7 +11,7 @@ const dojosData = [
     description: "Use open-source technology to develop a collaborative platform for biologists, enabling real-time data sharing and analysis, fostering global scientific collaboration and accelerating breakthrough discoveries.",
     image: "/images/projects/biologist.webp",
     tag: ["All", "Science"],
-    gitUrl: "https://og.admins.live/#Biologists",
+    gitUrl: "https://Biologists.workdojos.com",
     previewUrl: "/",
   },
   {
@@ -20,7 +20,7 @@ const dojosData = [
     description: "Use an open-source data visualization tool to create interactive, dynamic dashboards that showcase complex data insights, enhancing data scientists' ability to communicate findings effectively and engage stakeholders.",
     image: "/images/projects/datascientists.webp",
     tag: ["All", "Science"],
-    gitUrl: "https://og.admins.live/#Data-Scientists",
+    gitUrl: "https://DataScientists.workdojos.com",
     previewUrl: "/",
   },
   {
@@ -29,7 +29,7 @@ const dojosData = [
     description: "Open-source technology can be used by school teachers to create interactive educational games that engage students and promote collaborative learning experiences, fostering a fun and dynamic classroom environment.",
     image: "/images/projects/schoolteachers.webp",
     tag: ["All", "Education"],
-    gitUrl: "https://og.admins.live/#School-Teachers",
+    gitUrl: "https://SchoolTeachers.workdojos.com",
     previewUrl: "/",
   },
   {
@@ -38,7 +38,7 @@ const dojosData = [
     description: "Create an open-source theological discussion platform where theologians can collaborate, share insights, and debate religious doctrines openly, fostering a global community of diverse perspectives and knowledge exchange.",
     image: "/images/projects/theologian.webp",
     tag: ["All", "Religion"],
-    gitUrl: "https://og.admins.live/#Theologians",
+    gitUrl: "https://Theologian.workdojos.com",
     previewUrl: "/",
   },
 

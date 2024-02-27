@@ -62,7 +62,7 @@ const HeroSection = () => {
           <div className="lg:w-[400px] lg:h-[300px] relative ">
             <Image
               style={{borderRadius: 20}}
-              src="/images/winner.gif"
+              src=""
               alt="A beautiful Swedish woman holding a trophy"
               className=".img-container"
               width={307}
