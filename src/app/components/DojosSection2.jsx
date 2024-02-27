@@ -11,7 +11,7 @@ const dojosData = [
     description: "Use open-source animation software like Blender to create stunning 3D animations and collaborate with a global community of animators, accessing a vast library of free assets, plugins, and tutorials to bring your imagination to life.",
     image: "/images/projects/animators.webp",
     tag: ["All", "Design"],
-    gitUrl: "https://og.admins.live/#Animators",
+    gitUrl: "https://Animators.workdojos.com",
     previewUrl: "/",
   },
   {
@@ -20,7 +20,7 @@ const dojosData = [
     description: "Open-source technology can be used by bartenders to create a community-driven cocktail recipe database, allowing them to access and share innovative drink recipes with fellow mixologists for endless creativity and collaboration.",
     image: "/images/projects/bartenders.webp",
     tag: ["All", "Hospitality"],
-    gitUrl: "https://og.admins.live/#Bartenders",
+    gitUrl: "https://Bartenders.workdojos.com",
     previewUrl: "/",
   },
   {
@@ -29,7 +29,7 @@ const dojosData = [
     description: "Open-source augmented reality (AR) software enables exhibitionists to create immersive and interactive art installations, captivating audiences with personalized experiences while fostering collaboration and creativity within the community.",
     image: "/images/projects/exhibitionist.webp",
     tag: ["All", "The Arts"],
-    gitUrl: "https://og.admins.live/#Exhibitionists",
+    gitUrl: "https://Exhibitionist.workdojos.com",
     previewUrl: "/",
   },
   {
@@ -38,7 +38,7 @@ const dojosData = [
     description: "Open-source technology can enable graphic designers to collaborate and experiment with cutting-edge design tools and frameworks, fostering a vibrant community for sharing resources, inspiration, and creative solutions.",
     image: "/images/projects/graphicdesigner.webp",
     tag: ["All", "Design"],
-    gitUrl: "https://og.admins.live/#Graphic-Designers",
+    gitUrl: "https://GraphicDesigner.workdojos.com",
     previewUrl: "/",
   },
   {
@@ -47,7 +47,7 @@ const dojosData = [
     description: "Use open-source 3D printing software and hardware to create customizable jewelry designs, empowering jewelers to offer unique and personalized pieces to their customers at an affordable cost.",
     image: "images/projects/jeweler.webp",
     tag: ["All", "The Arts"],
-    gitUrl: "https://og.admins.live/#Jewelers",
+    gitUrl: "https://Jeweler.workdojos.com",
     previewUrl: "/",
   },
   {
@@ -56,7 +56,7 @@ const dojosData = [
     description: "Create a collaborative open-source platform for actors, directors, and playwrights to share and co-create scripts, allowing for global collaboration and innovation in the world of theater. This platform could also facilitate virtual auditions and rehearsals, making theater accessible to a wider audience and fostering a vibrant online theater community.",
     image: "/images/projects/musicalartist.webp",
     tag: ["All", "Entertainment"],
-    gitUrl: "https://og.admins.live/#Musicians",
+    gitUrl: "https://MusicalArtist.workdojos.com",
     previewUrl: "/",
   },
   {
@@ -65,7 +65,7 @@ const dojosData = [
     description: "Create a collaborative open-source platform for actors, directors, and playwrights to share and co-create scripts, allowing for global collaboration and innovation in the world of theater. This platform could also facilitate virtual auditions and rehearsals, making theater accessible to a wider audience and fostering a vibrant online theater community.",
     image: "/images/projects/thespian.webp",
     tag: ["All", "The Arts"],
-    gitUrl: "https://og.admins.live/#Thespians",
+    gitUrl: "https://Thespian.workdojos.com",
     previewUrl: "/",
   },
 ];

@@ -11,7 +11,7 @@ const dojosData = [
     description: "As an Account Executive, leverage open-source CRM software to seamlessly manage client relationships, track sales activities, and analyze data, enhancing sales effectiveness and productivity.",
     image: "/images/projects/accountexecutive.webp",
     tag: ["All", "Sales"],
-    gitUrl: "https://og.admins.live/#Account-Executives-Dojo",
+    gitUrl: "https://AccountExecutive.workdojos.com",
     previewUrl: "/",
   },
   {
@@ -20,7 +20,7 @@ const dojosData = [
     description: "Open-source technology can be used by administrators to create a collaborative task management platform, allowing teams to efficiently coordinate and track their progress while fostering a sense of shared responsibility and engagement.",
     image: "/images/projects/administrator.webp",
     tag: ["All", "Admin"],
-    gitUrl: "https://og.admins.live/#Administrators",
+    gitUrl: "https://Administrators.workdojos.com",
     previewUrl: "/",
   },
   {
@@ -29,7 +29,7 @@ const dojosData = [
     description: "Utilizing open-source social media analytics tools, digital marketers can gain valuable insights on audience behavior, optimize campaigns, and measure the impact of their strategies, all while saving costs and fostering collaboration within the marketing team.",
     image: "images/projects/digitalmarketers.webp",
     tag: ["All", "Marketing"],
-    gitUrl: "https://og.admins.live/#Digital-Marketers",
+    gitUrl: "https://DigitalMarketers.workdojos.com",
     previewUrl: "/",
   },
   {
@@ -38,7 +38,7 @@ const dojosData = [
     description: "Open-source project management software provides collaborative task tracking and real-time updates, empowering project managers to efficiently coordinate teams and streamline project workflows.",
     image: "/images/projects/projectmanagers.webp",
     tag: ["All", "Admin"],
-    gitUrl: "https://og.admins.live/#Project-Managers",
+    gitUrl: "https://ProjectManagers.workdojos.com",
     previewUrl: "/",
   },
   
