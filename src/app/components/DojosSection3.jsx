@@ -42,15 +42,6 @@ const dojosData = [
     previewUrl: "/",
   },
   {
-    id: 5,
-    title: "Neighbors",
-    description: "Neighborhood volunteers can use open-source technology to create a community-driven platform for sharing resources and organizing events, fostering collaboration and empowerment within the local community.",
-    image: "images/projects/neighborly.webp",
-    tag: ["All", "Public Services"],
-    gitUrl: "https://og.admins.live/#Neighbors",
-    previewUrl: "/",
-  },
-  {
     id: 6,
     title: "Park Rangers",
     description: "Open-source technology can be used by park rangers to develop a mobile app that enables visitors to identify local flora and fauna, fostering environmental awareness and engagement.",
@@ -58,15 +49,6 @@ const dojosData = [
     tag: ["All", "Public Services"],
     gitUrl: "https://og.admins.live/#Park-Rangers",
     previewUrl: "/",
-  },
-  {
-    id: 7,
-    title: "Pharmacists",
-    description: "Open-source technology can be used by pharmacists to develop a collaborative medication management platform that enables real-time sharing of drug interactions and personalized treatment recommendations, improving patient safety and healthcare outcomes.",
-    image: "/images/projects/pharmacists.webp",
-    tag: ["All", "Health & Wellness"],
-    gitUrl: "https://og.admins.live/#Pharmacists",
-    previewUrl: "/images/projects/academies.jpg",
   },
   {
     id: 8,
@@ -102,15 +84,6 @@ const dojosData = [
     image: "images/projects/travelagents.webp",
     tag: ["All", "Travel"],
     gitUrl: "https://og.admins.live/#Travel-Agents",
-    previewUrl: "/",
-  },
-  {
-    id: 12,
-    title: "Yoga Instructors",
-    description: "Open-source technology can be used by Yoga Instructors to develop a customizable virtual reality (VR) yoga experience, allowing students to practice in immersive virtual environments with real-time feedback and guidance, enhancing their yoga journey and accessibility to the practice.",
-    image: "/images/projects/yogainstructor.webp",
-    tag: ["All", "Health & Wellness"],
-    gitUrl: "https://og.admins.live/#Yoga-Instructors",
     previewUrl: "/",
   },
 ];
