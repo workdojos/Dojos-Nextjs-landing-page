@@ -52,6 +52,7 @@ const HeroSection = () => {
               </span>
             </Link>
           </div>
+          <div>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
