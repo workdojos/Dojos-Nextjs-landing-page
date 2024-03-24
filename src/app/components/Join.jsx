@@ -54,23 +54,6 @@ const HeroSection = () => {
           </div>
           <div>
         </motion.div>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
-        >
-          <div className="lg:w-[400px] lg:h-[300px] relative ">
-            <Image
-              style={{borderRadius: 20}}
-              src="/images/winner.gif"
-              alt="A vintage tv depicting a tropical paradise"
-              className=".img-container"
-              width={307}
-              height={307}
-            />
-          </div>
-        </motion.div>
       </div>
     </section>
   );
