@@ -10,7 +10,6 @@ import DojosSection2 from "./components/DojosSection2";
 import DojosSection3 from "./components/DojosSection3";
 import DojosSection4 from "./components/DojosSection4";
 import Challenge from "./components/Challenge";
-import Join from "./components/Join";
 
 
 
@@ -29,7 +28,6 @@ export default function Home() {
         <DojosSection3 />
         <DojosSection4 />
         <Challenge />
-        <Join />
         <EmailSection />
       </div>
       <Footer />
