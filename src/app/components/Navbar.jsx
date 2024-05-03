@@ -29,7 +29,7 @@ const navLinks = [
   },
   {
     title: "Pricing",
-    path: "https://blog.workdojos.com/#/portal/signup",
+    path: "https://blog.workdojos.com/#/portal/signup", target="_blank", rel="noopener noreferrer", 
   },
   {
     title: "Contact",
